@@ -11,6 +11,9 @@ import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonial from './components/Testimonial';
+import About from './components/About';
+import Statistics from './components/Statistics';
+import Services from './components/Services';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -22,6 +25,12 @@ export default function Portfolio() {
       <Header />
 
       <Hero />
+
+      <About />
+
+      <Statistics />
+
+      <Services />
 
       <Projects />      
 

@@ -18,6 +18,41 @@ export const portfolioConfig = {
     instagram: "#"
   },
   
+  // About Me
+  about: {
+    title: "My Story",
+    subtitle: "Get to know me better",
+    story: [
+      "I'm Hasib Jaan, a passionate software developer based in Dubai, UAE. My journey into the world of programming began with curiosity and has evolved into a deep commitment to creating impactful digital solutions.",
+      "Currently pursuing my education while actively developing my skills in web development and software engineering, I believe in continuous learning and pushing the boundaries of what's possible with code.",
+      "I specialize in full-stack development with a particular strength in Python and database management. My approach combines technical expertise with creative problem-solving to build applications that are both functional and elegant."
+    ],
+    education: [
+      {
+        degree: "High School Diploma",
+        school: "International School of Dubai",
+        year: "2025 - 2026",
+        description: "Grade 12 student focusing on Computer Science and Mathematics. Actively involved in coding clubs and tech competitions."
+      }
+    ],
+    interests: [
+      "Web Development & Design",
+      "Database Architecture",
+      "Artificial Intelligence",
+      "Open Source Contributing",
+      "Tech Innovation",
+      "Problem Solving"
+    ],
+    funFacts: [
+      "Started coding at age 15",
+      "Built my first website in a week",
+      "Love debugging as much as coding",
+      "Coffee-powered developer ☕",
+      "GitHub is my second home",
+      "Stack Overflow saved my life countless times"
+    ]
+  },
+
   // Projects
   projects: [
     {
@@ -135,6 +170,102 @@ export const portfolioConfig = {
     }
   ],
   
+  statistics: [
+    {
+      label: "Projects Completed",
+      value: 15,
+      suffix: "+",
+      icon: "briefcase"
+    },
+    {
+      label: "Technologies Mastered",
+      value: 12,
+      suffix: "+",
+      icon: "code"
+    },
+    {
+      label: "Hours of Coding",
+      value: 500,
+      suffix: "+",
+      icon: "clock"
+    },
+    {
+      label: "Happy Clients",
+      value: 8,
+      suffix: "+",
+      icon: "users"
+    }
+  ],
+
+  services: [
+    {
+      title: "Web Development",
+      description: "Building responsive, modern websites and web applications using the latest technologies and best practices.",
+      icon: "globe",
+      features: [
+        "Responsive Design",
+        "Single Page Applications",
+        "E-commerce Solutions",
+        "Performance Optimization"
+      ]
+    },
+    {
+      title: "Backend Development",
+      description: "Creating robust server-side applications, APIs, and database architectures for scalable solutions.",
+      icon: "server",
+      features: [
+        "RESTful API Development",
+        "Database Design & Optimization",
+        "Server Configuration",
+        "Cloud Integration"
+      ]
+    },
+    {
+      title: "Database Management",
+      description: "Designing and optimizing database systems for efficient data storage, retrieval, and management.",
+      icon: "database",
+      features: [
+        "SQL & NoSQL Databases",
+        "Query Optimization",
+        "Data Modeling",
+        "Migration & Backup"
+      ]
+    },
+    {
+      title: "UI/UX Design",
+      description: "Crafting intuitive and visually appealing user interfaces that provide excellent user experiences.",
+      icon: "palette",
+      features: [
+        "Wireframing & Prototyping",
+        "User Research",
+        "Interactive Designs",
+        "Design Systems"
+      ]
+    },
+    {
+      title: "Problem Solving",
+      description: "Analyzing complex technical challenges and delivering innovative, efficient solutions.",
+      icon: "lightbulb",
+      features: [
+        "Algorithm Design",
+        "Code Optimization",
+        "Debugging & Testing",
+        "Technical Consulting"
+      ]
+    },
+    {
+      title: "Maintenance & Support",
+      description: "Providing ongoing support, updates, and maintenance to keep your applications running smoothly.",
+      icon: "wrench",
+      features: [
+        "Bug Fixes & Updates",
+        "Performance Monitoring",
+        "Security Patches",
+        "Technical Support"
+      ]
+    }
+  ],
+
   // Footer
   copyright: "2025"
 
