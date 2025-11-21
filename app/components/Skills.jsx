@@ -35,9 +35,6 @@ export default function Skills() {
 
   const skills = portfolioConfig.skills;
 
-  console.log('Portfolio Config:', portfolioConfig);
-  console.log('Skills:', skills);
-
   return (
     <section ref={sectionRef} id="skills" className="py-20 px-6 bg-black/20">
       <div className="container mx-auto max-w-6xl">
