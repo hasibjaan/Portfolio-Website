@@ -1,69 +1,92 @@
-🚀 My Portfolio Website
+<!-- Banner Image -->
+<p align="center">
+  <img src="/mnt/data/A_digital_graphic_design_of_a_portfolio_website_di.png" alt="Portfolio Banner" width="100%" />
+</p>
 
-A showcase of my skills, projects, and professional journey, built with a modern, high-performance stack.
+# 🚀 My Portfolio Website
 
-🌟 Overview
+A modern, high-performance personal portfolio showcasing my skills, projects, and professional journey.
 
-This repository contains the source code for my personal portfolio website, designed to be fast, responsive, and visually appealing. It is built using the latest features of Next.js to provide excellent performance, automatic code splitting, and server-side capabilities, all styled beautifully with the utility-first approach of Tailwind CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js badge" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind badge" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel badge" />
+</p>
 
-Key Features
+---
 
-⚡ High Performance: Achieved through Next.js optimizations (Image optimization, routing, static generation).
+## 📑 Table of Contents
 
-📱 Fully Responsive Design: Seamless user experience across all devices (Mobile, Tablet, Desktop) thanks to Tailwind CSS utility classes.
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation](#-installation)
+  - [Run the Development Server](#-run-the-development-server)
+- [Project Structure](#-project-structure)
+- [Deployment](#-deployment)
+- [Resources](#-resources)
+- [Contact](#-contact)
+- [License](#-license)
 
-🎨 Modern & Minimalist UI: Clean and focused design to keep attention on the content (projects and skills).
+---
 
-🔗 Dynamic Routing: Utilizes Next.js routing for fast navigation between different portfolio sections.
+## 🌟 Overview
 
-📬 Integrated Contact Form: (If applicable) Easy way for visitors to reach out.
+This repository contains the source code for my personal **portfolio website**, built to be:
 
-🛠 Tech Stack
+- ⚡ **High-performance** — Next.js optimizations (image optimization, static generation, SSR where needed)  
+- 📱 **Fully responsive** — Tailwind CSS utility-first design for all screen sizes  
+- 🎨 **Modern & minimalist UI** — Clean layouts that highlight projects and skills  
+- 🔗 **Dynamic routing** — Fast navigation with the Next.js App Router  
+- 📬 **Contact form** (optional) — Easy way for visitors to reach out
 
-The project leverages the following technologies for a highly efficient and scalable frontend architecture:
+---
 
-Technology
+## ✨ Key Features
 
-Description
+- Next.js performance features (automatic code splitting, SSG/SSR)
+- Tailwind CSS for fast, responsive styling
+- Minimalist design focusing on content and projects
+- SEO-friendly meta and OG tags (if implemented)
+- Easy Vercel deployment
 
-Framework
+---
 
-Next.js (React Framework)
+## 🛠 Tech Stack
 
-Styling
+| Layer         | Technology                       |
+|---------------|----------------------------------|
+| Framework     | Next.js (React)                  |
+| Styling       | Tailwind CSS                     |
+| Language      | JavaScript (ES6+)                |
+| Deployment    | Vercel                           |
+| Package Mgr   | npm / yarn / pnpm / bun          |
 
-Tailwind CSS
+---
 
-Language
+## 💻 Getting Started
 
-JavaScript (ES6+)
+Follow these steps to run the project locally.
 
-Deployment
+### ✅ Prerequisites
 
-Vercel
+- Node.js (v16+ recommended)
+- A package manager: **npm**, **yarn**, **pnpm**, or **bun**
 
-Package Manager
+---
 
-npm / Yarn / pnpm / Bun
+### 📥 Installation
 
-💻 Getting Started (Local Setup)
+Clone the repo and install dependencies:
 
-Follow these steps to get a local copy of the project up and running on your machine.
-
-Prerequisites
-
-You need to have Node.js and a package manager (npm, yarn, pnpm, or bun) installed on your system.
-
-Installation
-
-Clone the repository:
-
+```bash
+# clone the repository
 git clone [YOUR_REPO_URL_HERE]
 cd [YOUR_REPO_NAME]
 
-
-Install dependencies:
-
+# install dependencies (choose one)
 npm install
 # or
 yarn install
@@ -71,12 +94,9 @@ yarn install
 pnpm install
 # or
 bun install
-
-
-Running the Development Server
-
-Start the server:
-
+```
+###  ▶️ Run the Development Server
+```bash
 npm run dev
 # or
 yarn dev
@@ -85,44 +105,48 @@ pnpm dev
 # or
 bun dev
 
+```
+### Your app will be available at:
+👉 http://localhost:3000
+```bash
+📁 Project Structure
+app/         → App Router pages, layouts, and route segments
+components/  → Reusable UI components (Navbar, Footer, Cards, etc.)
+public/      → Static assets (images, icons, fonts)
+styles/      → Global styles & Tailwind configuration
+lib/         → Utility helpers or modules (optional)
+```
+### ☁️ Deployment
 
-Open in Browser:
-The application will be available at: http://localhost:3000
+This portfolio is deployed on Vercel, offering:
 
-The page will auto-update as you make changes to files like app/page.js.
+- Automatic builds
+- CDN-level performance
+- Zero-config deployment
+- Deploy your own:
+- Push your repo to GitHub
+- Open https://vercel.com
+- mport your repository
+- Deploy with one click
 
-Project Structure
+### 📚 Resources
 
-This Next.js project uses the App Router structure:
+ - Next.js Docs → https://nextjs.org/docs
+ - Tailwind CSS Docs → https://tailwindcss.com/docs
+ - Learn Next.js → https://nextjs.org/learn
 
-app/: Contains all route segments, layouts, and pages.
+### ✉️ Contact
 
-components/: Reusable React components.
+- Add your preferred contact methods:
+- Email: hasibjaan@gmail.com
+- LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/hasibjaan/)
+- Portfolio URL: [Portfolio](https://portfolio-site-self-omega.vercel.app/)
 
-public/: Static assets like images and fonts.
+  
+### 📝 License
 
-styles/: Global stylesheets (mostly Tailwind configuration).
+This project is licensed under the MIT License.
+See the LICENSE.md file for details.
 
-☁️ Deployment
+<p align="center"><b>⭐ If you like this project, please consider giving the repository a star!</b></p> ```
 
-This application is deployed directly to the Vercel Platform, ensuring optimal performance, automatic scalability, and zero-configuration deployment.
-
-The production site is accessible via the Live Demo badge at the top of this README.
-
-Deploy Your Own Instance
-
-The easiest way to deploy this Next.js app is to use the Vercel Platform.
-
-📚 Learn More
-
-For those interested in the technologies used, here are some helpful resources:
-
-Next.js Documentation - Learn about Next.js features and API.
-
-Tailwind CSS Documentation - Explore the utility-first framework.
-
-Learn Next.js - An interactive Next.js tutorial.
-
-📝 License
-
-This project is licensed under the MIT License. See the LICENSE.md file for details.
